@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		70C345E92D77CE030063FC37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C345E32D77CE030063FC37 /* Preview Assets.xcassets */; };
+		70C345EA2D77CE030063FC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C345E52D77CE030063FC37 /* Assets.xcassets */; };
+		70C345EB2D77CE030063FC37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C345E62D77CE030063FC37 /* ContentView.swift */; };
+		70C345EC2D77CE030063FC37 /* QuoteFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C345E72D77CE030063FC37 /* QuoteFinderApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		70C345CC2D77CDD60063FC37 /* QuoteFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C345E32D77CE030063FC37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70C345E52D77CE030063FC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70C345E62D77CE030063FC37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70C345E72D77CE030063FC37 /* QuoteFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteFinderApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		70C345CE2D77CDD60063FC37 /* QuoteFinder */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = QuoteFinder;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		70C345C92D77CDD60063FC37 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		70C345C32D77CDD60063FC37 = {
 			isa = PBXGroup;
 			children = (
-				70C345CE2D77CDD60063FC37 /* QuoteFinder */,
+				70C345E82D77CE030063FC37 /* QuoteFinder */,
 				70C345CD2D77CDD60063FC37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,49 @@
 				70C345CC2D77CDD60063FC37 /* QuoteFinder.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		70C345E02D77CE030063FC37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70C345E62D77CE030063FC37 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70C345E12D77CE030063FC37 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		70C345E22D77CE030063FC37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70C345E42D77CE030063FC37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70C345E32D77CE030063FC37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70C345E82D77CE030063FC37 /* QuoteFinder */ = {
+			isa = PBXGroup;
+			children = (
+				70C345E72D77CE030063FC37 /* QuoteFinderApp.swift */,
+				70C345E22D77CE030063FC37 /* Model */,
+				70C345E12D77CE030063FC37 /* ViewModel */,
+				70C345E02D77CE030063FC37 /* View */,
+				70C345E42D77CE030063FC37 /* Preview Content */,
+				70C345E52D77CE030063FC37 /* Assets.xcassets */,
+			);
+			path = QuoteFinder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +105,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				70C345CE2D77CDD60063FC37 /* QuoteFinder */,
 			);
 			name = QuoteFinder;
 			packageProductDependencies = (
@@ -109,6 +152,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C345E92D77CE030063FC37 /* Preview Assets.xcassets in Resources */,
+				70C345EA2D77CE030063FC37 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C345EB2D77CE030063FC37 /* ContentView.swift in Sources */,
+				70C345EC2D77CE030063FC37 /* QuoteFinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
